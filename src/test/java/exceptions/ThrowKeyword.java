@@ -2,6 +2,7 @@ package exceptions;
 
 //Throw keyword is used to throw an exception.
 //We can throw checked or unchecked exceptions
+//AFTER THOWING AN EXCEPTION YOU CANNOT WRITE ANYTHING AS IT BECOMES UNREACHABLE CODE
 
 public class ThrowKeyword {
 
@@ -33,6 +34,7 @@ public class ThrowKeyword {
 	public static void example1(int age) throws Exception{
 		if(age<18){
 			throw new Exception("You are minor and ineligible to vote!");
+			//System.out.println("*************"); //AFTER THOWING AN EXCEPTION YOU CANNOT WRITE ANYTHING AS IT BECOMES UNREACHABLE CODE
 		}else{
 			System.out.println("You CAN vote");
 		}
