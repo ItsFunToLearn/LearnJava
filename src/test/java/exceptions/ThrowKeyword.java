@@ -10,7 +10,7 @@ public class ThrowKeyword {
 		try {
 			example1(16);
 		} catch (Exception e) {
-			e.printStackTrace();;
+			e.printStackTrace();
 			System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 		}
 		
