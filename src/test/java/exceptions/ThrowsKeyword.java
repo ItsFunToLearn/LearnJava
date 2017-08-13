@@ -6,8 +6,7 @@ import java.io.IOException;
 //Exception can be propagated from one class to another class
 //Exception can be propagated from one method to another method
 //When ever calling method throws exception you can handle it 
-//1.Using try catch block or
-//2. By throwing the exception using throws keyword
+//1.Using try catch block or 2. By throwing the exception using throws keyword
 
 public class ThrowsKeyword {
 
