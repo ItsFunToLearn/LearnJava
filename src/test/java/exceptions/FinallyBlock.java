@@ -1,4 +1,6 @@
 package exceptions;
+//Finally block executes irrespective of whether exception occurs or not.
+//Usually code which is used to stop DB connection, JDBC connection can be achieved using finally block
 
 public class FinallyBlock {
 	public static void main(String[] args) {
