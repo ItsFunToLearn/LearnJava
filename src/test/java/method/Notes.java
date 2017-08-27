@@ -26,6 +26,11 @@ package method;
  *  Default/Package/Friendly	- within classes present in same package
  *  Public						- anywhere
  *  Protected					- 
+ *  Final						- We can use final keyword for any variable method or class. Final variable values cannot be changed. 
+ *  							  In JAVA, constants are created using final keyword
+ *  							  Final methods cannot be overridden in subclass [But can be inherited]
+ *  							  Final class cannot be extended. It will b ethe last class in inheritance hierarchy.
+ *  
  *  
  *  
  * Types of methods: Static and Non static
