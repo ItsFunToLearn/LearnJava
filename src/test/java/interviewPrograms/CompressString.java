@@ -8,6 +8,7 @@ public class CompressString {
 		CompressString obj = new CompressString();
 		String str = "aaaabbbccd";
 		obj.getCompressedString2(str);
+		str.contains("");
 		
 	}
 	
